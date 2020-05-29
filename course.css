@@ -1,0 +1,294 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+  list-style: none;
+  color: rgb(51, 51, 51);
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+header {
+  background: white;
+  box-shadow: 0 4px 4px rgba(70, 70, 70, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon img {
+  height: 71px;
+  margin: 15px 0 0 10px;
+  border-radius: 5px;
+}
+
+.icon a {
+  font-size: 30px;
+  margin: 15px 15px 15px 0;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(238, 101, 101);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 3px rgb(197, 179, 179);
+}
+
+.icon a:hover {
+  background-color: rgb(235, 154, 154);
+}
+
+.icon a:active {
+  box-shadow: none;
+  position: relative;
+  top: 3px;
+}
+
+.info {
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+.info ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.info li {
+  font-size: 23px;
+  flex-grow: 1;
+}
+
+.info a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
+.info a:hover {
+  color: rgb(243, 222, 222);
+}
+
+.info li + li {
+  border-left: 1px solid rgb(87, 87, 87);
+}
+
+section {
+  margin-top: 153px;
+}
+
+section > h1 {
+  text-align: center;
+  font-size: 42px;
+  letter-spacing: 3px;
+  padding-top: 5px;
+  margin: 15px 15%;
+  border-bottom: 3px solid darksalmon;
+  color: rgb(87, 87, 87);
+}
+
+.coursecontent {
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.coursecontent a {
+  text-align: center;
+}
+
+.coursecontent img {
+  margin: 10px;
+  height: 100px;
+}
+
+.coursecontent img:hover {
+  color: white;
+  opacity: 0.7;
+}
+
+.gakusei h2 {
+  text-align: center;
+  margin: 50px 5% 10px 5%;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.shou h2 {
+  color: rgb(123, 197, 135);
+  border-bottom: 3px solid rgb(123, 197, 135);
+}
+
+.shou h4 span {
+  color: rgb(123, 197, 135);
+}
+
+.chuu h2 {
+  color: rgb(223, 157, 96);
+  border-bottom: 3px solid rgb(218, 170, 98);
+}
+
+.chuu h4 span {
+  color: rgb(223, 157, 96);
+}
+
+.kou h2 {
+  color: rgb(54, 125, 206);
+  border-bottom: 3px solid rgb(54, 125, 206);
+}
+
+.kou h4 span {
+  color: rgb(54, 125, 206);
+}
+
+.gakusei h4 {
+  font-size: 20px;
+  margin: 25px 0 10px 0;
+}
+
+.shou h4 {
+  border-bottom: 1px solid rgb(123, 197, 135);
+}
+
+.chuu h4 {
+  border-bottom: 1px solid rgb(223, 157, 96);
+}
+
+.kou h4 {
+  border-bottom: 1px solid rgb(54, 125, 206);
+}
+
+.gakusei h3 {
+  letter-spacing: 3px;
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+.gakusei img {
+  float: right;
+  width: 20%;
+  margin-right: 8%;
+  margin-left: 5%;
+}
+
+.chuu img:nth-child(odd) {
+  float: left;
+}
+
+.gakusei p {
+  margin-left: 5%;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: 2px;
+}
+
+.courseinfo {
+  text-align: center;
+}
+
+.courseinfo h2 {
+  font-size: 25px;
+  text-align: left;
+}
+
+.up,.middle {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.left,.right {
+  width: 45%;
+}
+
+.left p,.right p {
+  margin: 0;
+}
+
+footer {
+  background-color: rgb(73, 73, 73);
+  padding: 5px 5%;
+}
+
+footer h3 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  letter-spacing: 4px;
+}
+
+.table {
+  margin-bottom: 15px;
+}
+
+.list {
+  display: flex;
+  text-align: center;
+}
+
+.list a {
+  color: rgb(207, 207, 207);
+  width: 50%;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid rgb(207, 207, 207);
+}
+
+.list a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.list:last-child a {
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.list a + a {
+  border-left: 1px solid rgb(207, 207, 207);
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  padding-top: 7px;
+  padding-bottom: 4px;
+  margin: 0;
+}
+
+@media (max-width:670px) {
+  .up,.middle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left,.right {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+  }
+}

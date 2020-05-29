@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+  list-style: none;
+  color: rgb(51, 51, 51);
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+header {
+  background: white;
+  box-shadow: 0 4px 4px rgba(70, 70, 70, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon img {
+  height: 71px;
+  margin: 15px 0 0 10px;
+  border-radius: 5px;
+}
+
+.icon a {
+  font-size: 30px;
+  margin: 15px 15px 15px 0;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(238, 101, 101);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 3px rgb(197, 179, 179);
+}
+
+.icon a:hover {
+  background-color: rgb(235, 154, 154);
+}
+
+.icon a:active {
+  box-shadow: none;
+  position: relative;
+  top: 3px;
+}
+
+.info {
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+.info ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.info li {
+  font-size: 23px;
+  flex-grow: 1;
+}
+
+.info a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
+.info a:hover {
+  color: rgb(243, 222, 222);
+}
+
+.info li + li {
+  border-left: 1px solid rgb(87, 87, 87);
+}
+
+section {
+  margin-top: 153px;
+}
+
+section > h1 {
+  text-align: center;
+  font-size: 42px;
+  letter-spacing: 3px;
+  padding-top: 5px;
+  margin: 15px 15%;
+  border-bottom: 3px solid darksalmon;
+  color: rgb(87, 87, 87);
+}
+
+section h3 {
+  margin: 60px 15% 20px 15%;
+  font-size: 25px;
+  color: rgb(238, 101, 101);
+}
+
+table {
+  font-size: 12px;
+  margin: 0 15% 10px 15%;
+  width: 70%;
+  letter-spacing: 1px;
+}
+
+table th {
+  color: rgb(255, 255, 255);
+  padding: 15px 25px;
+  background-color: darksalmon;
+  font-size: 16px;
+}
+
+table td {
+  background-color: rgb(240, 214, 205);
+}
+
+section h4 {
+  font-size: 20px;
+  color: darksalmon;
+  background-color: rgb(240, 214, 205);
+  margin: 10px 12%;
+  padding-left: 3px;
+  border-left: 15px solid darksalmon;
+}
+
+section p {
+  margin: 10px 15%;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: rgb(66, 66, 66);
+}
+
+section p span {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+section p:last-child {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: rgb(73, 73, 73);
+  padding: 5px 5%;
+}
+
+footer h3 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  letter-spacing: 4px;
+}
+
+.table {
+  margin-bottom: 15px;
+}
+
+.list {
+  display: flex;
+  text-align: center;
+}
+
+.list a {
+  color: rgb(207, 207, 207);
+  width: 50%;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid rgb(207, 207, 207);
+}
+
+.list a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.list:last-child a {
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.list a + a {
+  border-left: 1px solid rgb(207, 207, 207);
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  padding-top: 7px;
+  padding-bottom: 4px;
+  margin: 0;
+}
+
+@media (max-width:750px) {
+  
+}
