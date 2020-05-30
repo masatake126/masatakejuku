@@ -219,7 +219,8 @@ footer p {
   margin: 0;
 }
 
-@media (max-width:900px) {
+@media(max-width:900px){
+  
   .teacher {
     flex-direction: column;
     text-align: center;
@@ -241,4 +242,5 @@ footer p {
   .teacher p {
     margin-bottom: 15px;
   }
+  
 }
